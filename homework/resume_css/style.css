@@ -1,3 +1,7 @@
+a {
+  color:green;
+  text-decoration:none;
+}
 p {
 
 }
@@ -12,4 +16,7 @@ ul {
 }
 #maintitle {
   font-family: 'Abril Fatface', cursive;
+}
+.customtable {
+  color:orange
 }
