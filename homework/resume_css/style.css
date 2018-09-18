@@ -1,22 +1,32 @@
 a {
-  color:green;
+  color:blue;
   text-decoration:none;
 }
-p {
-
-}
-h1 {
-
-}
 ul {
-  color:red;
+  color:gray;
 }
 .customlist {
-  color:purple;
+  color:darkgrey;
 }
 #maintitle {
   font-family: 'Abril Fatface', cursive;
 }
+#address {
+  color:blue
+}
+.subtitle {
+  font-family: 'Patua One', cursive;
+
+}
+h1:hover, td:hover {
+  color:blue
+}
 .customtable {
-  color:orange
+  color:dimgray
+}
+.italic {
+  color:dimgray
+}
+.tableheader {
+  text-decoration: underline;
 }
