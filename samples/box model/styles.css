@@ -11,3 +11,13 @@ nav {
   display: block;
   background: red;
 }
+.navlinks {
+  list-style-type: none;
+}
+.navlinks li {
+  display: inline;
+}
+.navlinks a {
+  text-decoration: none;
+  color: white;
+}
