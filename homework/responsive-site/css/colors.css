@@ -1,28 +1,25 @@
-body { margin:0; padding: 0;}
-.wrapper {
-  background: #CCCCCC;
+#main {
+  width: 150px
 }
-nav {
-  background: blue;
+body {
+  background-image: url('../images/gradient.jpg');
+background-repeat: no-repeat;
+background-size: cover;
 }
-.navlinks {
-  list-style-type: none;
-}
-.navlinks li {
-  display: inline;
-}
-.navlinks a {
+nav a {
   color: white;
-
+}
+a:hover {
+  color: silver;
+}
+#maintitle {
+background: gold;
+  color:white;
 }
 .left {
   background: white;
+  color: #B6DCE9;
 }
 .right {
-  background: #333333;
-  color: white;
-}
-footer {
-  background: black;
-  color: white;
+  background: silver;
 }
