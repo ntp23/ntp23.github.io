@@ -2,7 +2,7 @@ body {margin: 0, padding:0}
 .wrapper {
   display: block;
   width: 100%;
-  max-width: 1000px;
+  max-width: 640px;
   min-height: 10px;
   margin-left: auto;
   margin-right: auto;
@@ -14,11 +14,11 @@ nav {
   list-style-type: none;
 }
 .navlinks li {
-  display: inline;
+  display: inline-block;
 }
 .navlinks a {
   text-decoration: none;
-  display: inline-block;
+  display: block;
   padding: 10px;
 }
 ul li {
@@ -28,4 +28,86 @@ ul li {
 ul li a:hover {
 background-position: top;
 
+}
+img {
+  max-width: 100%;
+}
+#maintitle {
+  font-family: 'Passion One', cursive;
+  text-align: center;
+}
+.left {
+  display: block;
+  vertical-align: top;
+  width: 100%;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  padding: 20px;
+}
+.right {
+  display: block;
+  vertical-align: top;
+  width: 100%;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  margin-right: 20px;
+  padding: 20px;
+  text-align: center;
+
+}
+a {
+  text-decoration: none;
+  word-wrap: break-word;
+}
+.L {
+  display: block;
+  vertical-align: top;
+  min-height: 400px;
+  width: 100%;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  padding: 20px;
+}
+.bottom {
+  display: block;
+  vertical-align: top;
+  width: 100%;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  padding: 20px;
+}
+.top {
+  display: block;
+  vertical-align: top;
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  padding: 20px;
+  text-align: center;
+}
+b {
+  text-align: center;
+}
+.M {
+  display: block;
+  vertical-align: top;
+  width: 100%;
+  min-height: 400px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  padding: 20px;
+}
+.R {
+  display: block;
+  vertical-align: top;
+  width: 100%;
+  min-height: 400px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  padding: 20px;
+}
+iframe {
+  width: 100%
 }

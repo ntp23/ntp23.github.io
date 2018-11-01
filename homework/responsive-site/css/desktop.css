@@ -1,4 +1,6 @@
-body {margin: 0, padding:0}
+body {
+  margin: 0; padding:0;
+}
 .wrapper {
   display: block;
   width: 100%;
@@ -36,6 +38,7 @@ img {
 #maintitle {
   font-family: 'Passion One', cursive;
   text-align: center;
+  max-width: 100%
 }
 .left {
   display: inline-block;
