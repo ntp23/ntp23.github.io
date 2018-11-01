@@ -1,4 +1,4 @@
-var totalsteps=5;
+var .totalsteps=5;
 
 var currentstep=0;
 
@@ -6,7 +6,7 @@ var currentslide;
 
 $(function(){
   $('totalsteps').html(totalsteps);
-  $('.steps li, .end, #prev').hide()
+  $('.steps li, .finish, #prev, #finish').hide()
 });
 $('.begin').on('click', function(){
   $('.begin').hide();
@@ -45,8 +45,6 @@ $('#prev').on('click', function(){
     $('#prev').hide();
   }
 });
-$('.end').on(click, function(){
-  $(currentslide).hide();
-  currentslide=
+
 
 });
