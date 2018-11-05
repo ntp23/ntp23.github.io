@@ -44,3 +44,9 @@ $('#prev').on('click', function(){
     $('#prev').hide();
   }
 });
+$('#end').on('click', function (){
+  $(currentslide).hide();
+  currentstep=0;
+  currentslide=$('.finish, #finish');
+  $(currentslide).fadeIn(1000);
+});
