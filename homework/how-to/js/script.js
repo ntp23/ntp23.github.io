@@ -5,6 +5,9 @@ var currentslide;
 $(function(){
   $('totalsteps').html(totalsteps);
   $('.steps li, .finish, #prev, #finish').hide()
+  $('p').on('mouseover', function(){
+    $(this).css('color','#F5DEB3')
+  });
 });
 
 $('.begin').on('click', function(){
